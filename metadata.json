@@ -1,0 +1,6 @@
+{
+  "name": "WiseBite - The Rustic Olive Cafe & Bistro",
+  "description": "Zero-waste commercial kitchen inventory, surplus meal planning, food rescue dispatch, and SDG impact verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

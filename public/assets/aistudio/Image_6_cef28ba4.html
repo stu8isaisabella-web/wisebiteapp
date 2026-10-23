@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#f1f6e6","on-tertiary":"#ffffff","on-tertiary-container":"#cdbaa1","on-surface-variant":"#454840","tertiary-fixed-dim":"#d7c4aa","outline-variant":"#c6c7bd","primary-fixed":"#dae7c7","surface-variant":"#e0e4d5","on-surface":"#181d14","inverse-surface":"#2d3228","primary-container":"#455038","on-secondary-fixed":"#131f0c","secondary":"#55624b","surface-container-high":"#e5eada","surface-tint":"#576249","error":"#ba1a1a","secondary-fixed":"#d8e8c9","inverse-on-surface":"#eef3e3","on-tertiary-fixed-variant":"#524531","tertiary":"#403421","on-error-container":"#93000a","on-secondary-fixed-variant":"#3e4b34","surface-container":"#ebf0e0","inverse-primary":"#bfcbac","on-secondary":"#ffffff","secondary-container":"#d8e8c9","primary-fixed-dim":"#bfcbac","on-secondary-container":"#5b6950","primary":"#2f3923","on-primary-container":"#b5c2a3","surface-container-highest":"#e0e4d5","tertiary-fixed":"#f4dfc5","on-error":"#ffffff","on-background":"#181d14","surface-container-lowest":"#ffffff","outline":"#76786f","surface-dim":"#d7dccd","on-tertiary-fixed":"#241a09","on-primary-fixed-variant":"#3f4a33","tertiary-container":"#584a36","secondary-fixed-dim":"#bccbae","on-primary-fixed":"#151e0b","error-container":"#ffdad6","surface-bright":"#f7fbeb","on-primary":"#ffffff","background":"#f7fbeb","surface":"#f7fbeb"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-md":"1rem","margin-md":"1.5rem",margin:"1rem",gutter:"1rem","space-xs":"0.25rem","space-xl":"2rem","space-lg":"1.5rem","space-2xl":"3rem","gutter-md":"1.5rem","space-sm":"0.5rem","margin-lg":"2.5rem","gutter-lg":"2rem"},fontFamily:{"title-md":["Outfit"],"body-md":["Inter"],"headline-lg":["Outfit"],"display-lg":["Outfit"],"headline-sm":["Outfit"],"body-sm":["Inter"],"label-sm":["Inter"],"label-lg":["Inter"],"body-lg":["Inter"],"headline-md":["Outfit"],"headline-lg-mobile":["Outfit"],"label-md":["Inter"],"display-lg-mobile":["Outfit"]},fontSize:{"title-md":["18px",{lineHeight:"24px",fontWeight:"500"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.015em",fontWeight:"600"}],"display-lg":["44px",{lineHeight:"52px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"26px",fontWeight:"500"}],"body-sm":["12px",{lineHeight:"16px",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.03em",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"30px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-lg-mobile":["26px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"display-lg-mobile":["32px",{lineHeight:"38px",letterSpacing:"-0.015em",fontWeight:"600"}]}}}};</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(47,57,35,0.05)] pt-safe"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><img alt="WiseBite Brand Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1X2-S39JZFPu8CZ2HMpU-TDP3UcM5f_l6o6WADCglL4MXwA6az2mTExV6J1-xK_FMTviY2fmWtn1NyaNB1p0oPgVqxx9bzEYg82_FuMiZ8xVeoX3_39m_GnDnU16AoNFH7bA1bwm_53FWQaMY9nq2MJ_SnK4glca-by3WM2glcoAlMlY-PyiBKNt9OCsqbO84QXonbnYW1vQtpUDouJySAScrVjKfeE_yfxTOVxF8AnPi2VGU5OEdjSaw"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-title-md text-title-md text-on-surface truncate">The Rustic Olive Cafe &amp; Bistro</span><span class="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed text-label-sm font-label-sm"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>Active</span></div><div class="flex items-center gap-space-xs"><span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Meal Planner</span><span class="text-on-surface-variant/40 text-label-sm">•</span><span class="font-label-sm text-label-sm text-secondary truncate">SDG Impact Verified</span></div></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Expiring Inventory Alerts" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2 right-2 min-w-[18px] h-[18px] px-1 rounded-full bg-tertiary-container text-on-tertiary font-label-sm text-[10px] flex items-center justify-center font-bold ring-2 ring-surface">3</span></button><button aria-label="View Profile" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-surface-container-high transition-colors"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-primary-container/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdwf3Rne0thH7rwT2YosKh6yc1dsozi-tmiRkTIWR-NKAYc31GrzXpnbWLkP5ouAQG_AI9mnHxy1Mi3-ls9DhpbzPdJDkeWS3U2IYX3GBiw5F-Dobl7V3rPjpY85wkwRykvH3FBFuMkSVHBMT0VCupGYl2CnIjg8tgEirqw_V46QVHpnFymzQOVWDDaxMBBMs8ZDZFERlBJv_PPy3u22CY7oxqBv_87hNn1xcgowcVsFP_fqBaQA_A"/></button></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface"><div class="flex flex-col w-full px-margin pb-6 gap-y-5">
+<!-- Top Segmented Toggle with playful micro-interaction -->
+<div class="w-full bg-surface-container-high p-1 rounded-full flex items-center relative shadow-sm">
+<button class="flex-1 py-2.5 rounded-full flex items-center justify-center gap-1.5 transition-all duration-300 font-label-lg text-label-lg bg-surface-container-lowest text-on-surface shadow-sm font-semibold" id="tab-planner" onclick="switchMode('planner')">
+<span class="material-symbols-outlined text-[18px]">event_note</span>
+<span>Restock &amp; Planner</span>
+</button>
+<button class="flex-1 py-2.5 rounded-full flex items-center justify-center gap-1.5 transition-all duration-300 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface" id="tab-recipe" onclick="switchMode('recipe')">
+<span class="material-symbols-outlined text-[18px]">skillet</span>
+<span>Zero-Waste Maker</span>
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim inline-block animate-pulse"></span>
+</button>
+</div>
+<!-- Warm Community & Kitchen Notice Banner -->
+<div class="w-full bg-secondary-container/60 rounded-2xl p-4 flex items-start gap-3 shadow-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-container flex items-center justify-center flex-shrink-0 text-on-secondary-container mt-0.5">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">eco</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-secondary-fixed">Surplus Sync Active</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest text-secondary font-label-sm text-label-sm">Bistro + Rescue Hub</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-secondary-container mt-0.5">
+        18.4 kg of incoming rescued pantry produce paired with commercial prep schedules today.
+      </p>
+</div>
+</div>
+<!-- Kitchen Configuration Card -->
+<div class="w-full bg-surface-container-lowest rounded-3xl p-5 shadow-[0_4px_16px_-2px_rgba(69,80,56,0.06)] flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface">Kitchen Setup &amp; Logistics</h2>
+</div>
+<button class="text-secondary hover:text-primary font-label-sm text-label-sm flex items-center gap-0.5">
+<span>Edit Profiles</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+<!-- Timeline Selector -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-semibold">PLANNING TIMELINE</label>
+<div class="grid grid-cols-3 gap-2">
+<button class="timeline-btn py-2 px-3 rounded-full font-label-md text-label-md bg-primary-container text-on-primary transition-all text-center font-medium shadow-sm" onclick="selectTimeline(this, '7')">
+          Next 7 Days
+        </button>
+<button class="timeline-btn py-2 px-3 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high transition-all text-center" onclick="selectTimeline(this, '14')">
+          14 Days
+        </button>
+<button class="timeline-btn py-2 px-3 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high transition-all text-center" onclick="selectTimeline(this, '30')">
+          30 Days
+        </button>
+</div>
+</div>
+<!-- Preferred Wholesale Supplier -->
+<div class="bg-surface-container-low/70 rounded-2xl p-3.5 flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-10 h-10 rounded-xl bg-surface-container-lowest flex items-center justify-center flex-shrink-0 text-primary">
+<span class="material-symbols-outlined text-[22px]">storefront</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">PREFERRED WHOLESALE / HUB</span>
+<span class="font-title-md text-body-lg font-semibold text-on-surface truncate">Metro Organic Wholesale &amp; Local Market</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary flex-shrink-0 text-[20px]">swap_horiz</span>
+</div>
+<!-- Weekly Budget Cap & Progress Bar -->
+<div class="bg-surface-container-low/70 rounded-2xl p-3.5 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">WEEKLY BUDGET CAP</span>
+<span class="font-title-md text-title-md text-primary font-bold">$850.00 / wk</span>
+</div>
+<!-- Progress Bar Graphic -->
+<div class="w-full bg-surface-variant rounded-full h-3 overflow-hidden flex">
+<div class="bg-primary-container h-full rounded-full transition-all duration-500" style="width: 75.3%;"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant pt-0.5">
+<span class="flex items-center gap-1 font-medium">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+          $640.00 allocated
+        </span>
+<span class="flex items-center gap-1 font-semibold text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+          $210.00 available
+        </span>
+</div>
+</div>
+<!-- Kitchen Appliances Tags -->
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">ACTIVE KITCHEN EQUIPMENT</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">oven_gen</span>
+          Commercial Oven
+        </span>
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">cooking</span>
+          Induction Cooktop
+        </span>
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">mode_heat</span>
+          Convection Air Fryer
+        </span>
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">water_voc</span>
+          Sous-vide
+        </span>
+</div>
+</div>
+<!-- Dietary / Service Profile -->
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">DIETARY &amp; SERVICE PROFILE</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm">Plant-forward</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">Nut-Free options</span>
+<span class="px-3 py-1 rounded-full bg-surface-variant text-on-surface-variant font-label-sm text-label-sm">Gluten-Free pastry</span>
+</div>
+</div>
+</div>
+<!-- Expiring Ingredients Live Callout Bar -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-tertiary text-[20px]" style="font-variation-settings: 'FILL' 1;">timer</span>
+<h3 class="font-title-md text-headline-sm font-semibold text-on-surface">Today's Rescue Recipes</h3>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold">
+      3 Items Expiring
+    </span>
+</div>
+<!-- Expiring Items Summary Strip -->
+<div class="w-full bg-surface-container-high/80 rounded-2xl p-3 flex items-center justify-around text-center">
+<div class="flex flex-col items-center">
+<span class="text-[18px]">🥑</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface mt-0.5">4kg Avocados</span>
+<span class="text-[10px] text-error font-medium">Expires in 24h</span>
+</div>
+<div class="w-px h-8 bg-outline-variant/40"></div>
+<div class="flex flex-col items-center">
+<span class="text-[18px]">🥛</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface mt-0.5">6L Oat Milk</span>
+<span class="text-[10px] text-tertiary font-medium">Expires in 36h</span>
+</div>
+<div class="w-px h-8 bg-outline-variant/40"></div>
+<div class="flex flex-col items-center">
+<span class="text-[18px]">🥖</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface mt-0.5">6 Sourdough</span>
+<span class="text-[10px] text-on-surface-variant font-medium">Day-old crust</span>
+</div>
+</div>
+<!-- Recipe Card 1: Whipped Avocado Green Goddess Toast & Tartine -->
+<div class="w-full bg-surface-container-lowest rounded-3xl overflow-hidden shadow-[0_4px_16px_-2px_rgba(69,80,56,0.06)] flex flex-col group">
+<div class="relative w-full h-44 bg-surface-variant overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal cafe kitchen presentation of whipped avocado green goddess tartines on toasted rustic sourdough slices, garnished with microgreens, cold-pressed olive oil drizzle, and edible flower petals, warm natural morning light, wooden kitchen board, rustic minimalist food photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0p-TdxdgbgjGlAV5ksOFqOcpLekITPjUBov_SikVhOKQobgsN5zcBhMvOOhx5XdPdwBy3W1pygzuq8-mdUD6sPR1sxgMxKv2VA8Upx7oC6JjFYa2FQt_JdmrNvoe1EKMlxFT1-K0t3vLAFYuyO4HnenZwhryp8EWs4B6uMe7c90J5egiAZ4GktWHnWxsW5e3cLZU0--Lhw4S_KtKaospxFk83CH72OikfoBOhm7Lg2bLhDJYnM3Ea"/>
+<div class="absolute top-3 left-3">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-bold shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+          High Margin &amp; Zero Waste
+        </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="px-2.5 py-1 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-bold shadow-sm">
+          $1.85 / portion
+        </span>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-3">
+<div class="flex flex-col">
+<h4 class="font-title-md text-headline-sm font-semibold text-on-surface leading-snug">
+          Whipped Avocado Green Goddess Toast &amp; Tartine
+        </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Blended ripe Haas avocados with fresh herbs and citrus zest over griddled day-old sourdough batard slices.
+        </p>
+</div>
+<!-- Ingredient Rescue Pill Badges -->
+<div class="flex flex-wrap gap-1.5 py-1">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-low text-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">recycling</span>
+          Uses: 4kg Expiring Avocados
+        </span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-low text-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bakery_dining</span>
+          6 Sourdough Loaves
+        </span>
+</div>
+<!-- Recipe Quick Specs Grid -->
+<div class="grid grid-cols-3 gap-2 py-2 px-3 rounded-2xl bg-surface-container-low/60 text-center">
+<div>
+<span class="font-label-sm text-[10px] text-on-surface-variant uppercase tracking-wider block">PREP TIME</span>
+<span class="font-title-md text-body-md font-semibold text-on-surface">15 mins</span>
+</div>
+<div>
+<span class="font-label-sm text-[10px] text-on-surface-variant uppercase tracking-wider block">YIELD</span>
+<span class="font-title-md text-body-md font-semibold text-on-surface">24 portions</span>
+</div>
+<div>
+<span class="font-label-sm text-[10px] text-on-surface-variant uppercase tracking-wider block">WASTE SAVED</span>
+<span class="font-title-md text-body-md font-semibold text-secondary">100% Target</span>
+</div>
+</div>
+<!-- Action Footer -->
+<div class="flex items-center gap-2 pt-1">
+<button class="flex-1 py-2.5 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg font-semibold hover:bg-primary transition-colors flex items-center justify-center gap-1.5 shadow-sm" onclick="logBatchToast('Whipped Avocado Toast')">
+<span class="material-symbols-outlined text-[18px]">soup_kitchen</span>
+<span>Schedule Cafe Batch</span>
+</button>
+<button aria-label="Save Recipe" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Recipe Card 2: Creamy Golden Oat Milk Spiced Chai & Panna Cotta -->
+<div class="w-full bg-surface-container-lowest rounded-3xl overflow-hidden shadow-[0_4px_16px_-2px_rgba(69,80,56,0.06)] flex flex-col group">
+<div class="relative w-full h-44 bg-surface-variant overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Glass dessert jars of creamy plant-based oat milk spiced chai panna cotta with golden cardamom infused layer on top, set on a bright Scandinavian cafe service counter, sprinkled with star anise and cinnamon stick, warm cozy ambient bistro lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADq_paHpHaa2PYPr8VllWpUfnFBRLeHppXIOxE7GsW-BMBcYPOnlKdAdJffSFBHTB7BCZzBARCzcgMAmiTIfVr4xvLHi0dMID-b1Ufi56_MFpCN4DaUYMNYZkSAhNh3YpYteUhCk_aBRa5Nt2yoNbuCr5DmEXiXZH9gZqCYtRlcbF02cpBtB5c2CsBishYvRWV_7S3jysZHrgBCE3zzyKVcMID0PsBYvkYWyhsue6BamVeX2TlhbHi"/>
+<div class="absolute top-3 left-3">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary-container font-label-sm text-label-sm font-bold shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+          Community Kitchen Favorite
+        </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="px-2.5 py-1 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-bold shadow-sm">
+          $0.95 / jar
+        </span>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-3">
+<div class="flex flex-col">
+<h4 class="font-title-md text-headline-sm font-semibold text-on-surface leading-snug">
+          Creamy Golden Oat Milk Spiced Chai &amp; Panna Cotta
+        </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Slow-simmered oat beverage infused with fair-trade cardamom, ginger, agar-agar, and raw brown sugar jars.
+        </p>
+</div>
+<!-- Ingredient Rescue Pill Badges -->
+<div class="flex flex-wrap gap-1.5 py-1">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-low text-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">water_drop</span>
+          Uses: 6L Rescued Oat Milk
+        </span>
+<span class="px-2.5 py-1 rounded-lg bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">volunteer_activism</span>
+          Ready for Food Rescue Hub
+        </span>
+</div>
+<!-- Recipe Quick Specs Grid -->
+<div class="grid grid-cols-3 gap-2 py-2 px-3 rounded-2xl bg-surface-container-low/60 text-center">
+<div>
+<span class="font-label-sm text-[10px] text-on-surface-variant uppercase tracking-wider block">PREP TIME</span>
+<span class="font-title-md text-body-md font-semibold text-on-surface">25 mins</span>
+</div>
+<div>
+<span class="font-label-sm text-[10px] text-on-surface-variant uppercase tracking-wider block">YIELD</span>
+<span class="font-title-md text-body-md font-semibold text-on-surface">30 Jars</span>
+</div>
+<div>
+<span class="font-label-sm text-[10px] text-on-surface-variant uppercase tracking-wider block">SHELF LIFE</span>
+<span class="font-title-md text-body-md font-semibold text-primary">5 Days Cold</span>
+</div>
+</div>
+<!-- Action Footer -->
+<div class="flex items-center gap-2 pt-1">
+<button class="flex-1 py-2.5 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg font-semibold hover:bg-primary transition-colors flex items-center justify-center gap-1.5 shadow-sm" onclick="logBatchToast('Oat Milk Chai Panna Cotta')">
+<span class="material-symbols-outlined text-[18px]">soup_kitchen</span>
+<span>Prepare for Distribution</span>
+</button>
+<button aria-label="Save Recipe" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Primary Interactive Actions Section -->
+<div class="w-full flex flex-col gap-3 pt-2">
+<!-- Earthy Olive Button: Generate Custom Recipe -->
+<button class="w-full h-12 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg font-semibold shadow-md hover:bg-primary active:scale-[0.99] transition-all flex items-center justify-center gap-2" onclick="openRecipeGeneratorModal()">
+<span class="material-symbols-outlined text-[20px]">auto_fix_high</span>
+<span>Generate Custom Recipe from Surplus Produce</span>
+</button>
+<!-- Warm Cream Button: Export Grocery Restock -->
+<button class="w-full h-12 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-lg text-label-lg font-semibold shadow-sm hover:bg-tertiary-fixed-dim active:scale-[0.99] transition-all flex items-center justify-center gap-2" onclick="exportGroceryOrder()">
+<span class="material-symbols-outlined text-[20px]">receipt_long</span>
+<span>Export Weekly Restock Grocery List to Supplier</span>
+</button>
+</div>
+<!-- Realistic Wholesale Disclaimer -->
+<div class="w-full text-center py-2">
+<p class="font-body-sm text-[11px] text-on-surface-variant/70 italic leading-tight">
+      *Ingredient costs are estimated based on regional wholesale averages and seasonal surplus indexes.
+    </p>
+</div>
+<!-- Toast Notification Floating Element (Micro-Interaction) -->
+<div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 bg-inverse-surface text-inverse-on-surface px-4 py-2.5 rounded-full font-label-sm text-label-sm shadow-xl flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-300" id="planner-toast">
+<span class="material-symbols-outlined text-[18px] text-inverse-primary">check_circle</span>
+<span id="toast-text">Batch added to kitchen roster!</span>
+</div>
+</div>
+<script>
+  function switchMode(mode) {
+    const plannerBtn = document.getElementById('tab-planner');
+    const recipeBtn = document.getElementById('tab-recipe');
+    
+    if (mode === 'planner') {
+      plannerBtn.className = 'flex-1 py-2.5 rounded-full flex items-center justify-center gap-1.5 transition-all duration-300 font-label-lg text-label-lg bg-surface-container-lowest text-on-surface shadow-sm font-semibold';
+      recipeBtn.className = 'flex-1 py-2.5 rounded-full flex items-center justify-center gap-1.5 transition-all duration-300 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface';
+      showToast('Viewing full 7-day restock allocation & prep calendar.');
+    } else {
+      recipeBtn.className = 'flex-1 py-2.5 rounded-full flex items-center justify-center gap-1.5 transition-all duration-300 font-label-lg text-label-lg bg-surface-container-lowest text-on-surface shadow-sm font-semibold';
+      plannerBtn.className = 'flex-1 py-2.5 rounded-full flex items-center justify-center gap-1.5 transition-all duration-300 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface';
+      showToast('Prioritizing zero-waste items for current shift.');
+    }
+  }
+
+  function selectTimeline(btn, days) {
+    document.querySelectorAll('.timeline-btn').forEach(b => {
+      b.className = 'timeline-btn py-2 px-3 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high transition-all text-center';
+    });
+    btn.className = 'timeline-btn py-2 px-3 rounded-full font-label-md text-label-md bg-primary-container text-on-primary transition-all text-center font-medium shadow-sm';
+    showToast('Recalculated budget & wholesale order for ' + days + ' days.');
+  }
+
+  function logBatchToast(recipeName) {
+    showToast('Scheduled "' + recipeName + '" for today’s production run!');
+  }
+
+  function openRecipeGeneratorModal() {
+    showToast('AI Chef scanned 3 expiring ingredients. Creating surplus menu...');
+  }
+
+  function exportGroceryOrder() {
+    showToast('Order manifest sent to Metro Organic Wholesale!');
+  }
+
+  function showToast(message) {
+    const toast = document.getElementById('planner-toast');
+    const text = document.getElementById('toast-text');
+    if (!toast || !text) return;
+    text.textContent = message;
+    toast.classList.remove('opacity-0', 'pointer-events-none');
+    toast.classList.add('opacity-100');
+    setTimeout(() => {
+      toast.classList.remove('opacity-100');
+      toast.classList.add('opacity-0', 'pointer-events-none');
+    }, 2800);
+  }
+</script></main><nav class="fixed bottom-3 inset-x-0 z-50 px-margin flex justify-center pointer-events-none pb-safe" data-active-classes="bg-secondary-container text-primary-container font-semibold"><div class="pointer-events-auto w-full max-w-md bg-surface-container-lowest/95 backdrop-blur-xl rounded-full shadow-[0_12px_32px_-4px_rgba(35,40,30,0.12),0_4px_12px_-2px_rgba(35,40,30,0.06)] px-2 py-1.5 flex items-center justify-between"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[62px] h-12 rounded-full text-on-surface-variant hover:text-on-surface transition-all" data-path="home-overview" href="#"><span class="material-symbols-outlined text-[22px]">dashboard</span><span class="font-label-sm text-[11px] leading-tight">Home</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[62px] h-12 rounded-full text-on-surface-variant hover:text-on-surface transition-all" data-path="kitchen-inventory" href="#"><span class="material-symbols-outlined text-[22px]">kitchen</span><span class="font-label-sm text-[11px] leading-tight">Kitchen</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[62px] h-12 rounded-full transition-all bg-secondary-container text-primary-container font-semibold" data-path="meal-planner" href="#"><span class="material-symbols-outlined text-[22px]">menu_book</span><span class="font-label-sm text-[11px] leading-tight">Meal Plan</span></a><a class="relative flex flex-col items-center justify-center gap-0.5 min-w-[62px] h-12 rounded-full text-on-surface-variant hover:text-on-surface transition-all" data-path="food-rescue" href="#"><span class="absolute -top-1 right-2 px-1.5 py-0.2 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-bold font-label-sm ring-1 ring-surface-container-lowest">4</span><span class="material-symbols-outlined text-[22px]">volunteer_activism</span><span class="font-label-sm text-[11px] leading-tight">Rescue</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[62px] h-12 rounded-full text-on-surface-variant hover:text-on-surface transition-all" data-path="impact-metrics" href="#"><span class="material-symbols-outlined text-[22px]">eco</span><span class="font-label-sm text-[11px] leading-tight">Impact</span></a></div></nav></body></html>

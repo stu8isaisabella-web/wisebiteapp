@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: "Outfit", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  --color-surface: #f7fbeb;
+  --color-surface-dim: #d7dccd;
+  --color-surface-bright: #f7fbeb;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f1f6e6;
+  --color-surface-container: #ebf0e0;
+  --color-surface-container-high: #e5eada;
+  --color-surface-container-highest: #e0e4d5;
+  --color-on-surface: #181d14;
+  --color-on-surface-variant: #454840;
+  --color-inverse-surface: #2d3228;
+  --color-inverse-on-surface: #eef3e3;
+  --color-outline: #76786f;
+  --color-outline-variant: #c6c7bd;
+  --color-surface-tint: #576249;
+  --color-primary: #2f3923;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #455038;
+  --color-on-primary-container: #b5c2a3;
+  --color-inverse-primary: #bfcbac;
+  --color-secondary: #55624b;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #d8e8c9;
+  --color-on-secondary-container: #5b6950;
+  --color-tertiary: #403421;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #584a36;
+  --color-on-tertiary-container: #cdbaa1;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #dae7c7;
+  --color-primary-fixed-dim: #bfcbac;
+  --color-on-primary-fixed: #151e0b;
+  --color-on-primary-fixed-variant: #3f4a33;
+  --color-secondary-fixed: #d8e8c9;
+  --color-secondary-fixed-dim: #bccbae;
+  --color-on-secondary-fixed: #131f0c;
+  --color-on-secondary-fixed-variant: #3e4b34;
+  --color-tertiary-fixed: #f4dfc5;
+  --color-tertiary-fixed-dim: #d7c4aa;
+  --color-on-tertiary-fixed: #241a09;
+  --color-on-tertiary-fixed-variant: #524531;
+  --color-background: #f7fbeb;
+  --color-on-background: #181d14;
+  --color-surface-variant: #e0e4d5;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-inter);
+    background-color: #f7fbeb;
+    color: #181d14;
+    overscroll-behavior: none;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* Material Symbols Outlined font styling helper */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
